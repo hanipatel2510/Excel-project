@@ -1,92 +1,115 @@
-# 📊 PR. 1 Fundamental Booster – Excel Project
+# 📊 PR. 1 – Fundamental Booster Excel Project
 
 ## 📌 Project Overview
-This project demonstrates the use of essential and intermediate Microsoft Excel functions for data analysis. It includes three main datasets: **Student Grades**, **Sales Performance**, and **Employee Records**.
 
-The project focuses on formula-based calculations, conditional logic, lookup functions, text manipulation, date calculations, and dynamic filtering.
+The **Fundamental Booster Excel Project** is a practical Microsoft Excel project designed to demonstrate essential and intermediate Excel functions used in data analysis.
 
----
+This project includes three worksheets: **Student Grade, Sales Data, and Employee Data**. Each worksheet focuses on calculations, logical conditions, lookup functions, text manipulation, date calculations, and dynamic filtering.
+
+The main goal of this project is to develop practical Excel skills and understand how formulas can be used to analyze, organize, and manage data efficiently.
 
 ## 🎯 Project Objectives
-- Practice essential and intermediate Excel formulas.
-- Analyze student marks, sales transactions, and employee records.
-- Apply conditional logic using `IF`, `AND`, and `OR`.
-- Retrieve information using lookup and reference functions (`VLOOKUP`, `XLOOKUP`, `INDEX-MATCH`).
-- Perform calculations using date, text, and mathematical functions.
-- Filter records dynamically based on specific conditions.
-- Improve spreadsheet formatting, structure, and professional data presentation.
 
----
+- Practice essential and intermediate Excel functions.
+- Calculate student marks, averages, and grades.
+- Analyze sales transactions, product prices, and discounts.
+- Retrieve and analyze employee information.
+- Apply logical functions such as `IF`, `AND`, and `OR`.
+- Use lookup and reference functions to retrieve data.
+- Perform text manipulation and date calculations.
+- Apply conditional counting, summation, and averaging.
+- Improve spreadsheet formatting and data presentation.
+
 ## 🎥 Project Demo
 
-Watch the video demonstration of the Excel Fundamental Booster Project to explore the worksheets, formulas, and analysis results.
+Watch the project demonstration to explore the worksheets, formulas, and calculation results.
 
-🔗 **Project Demo Video:** [https://drive.google.com/file/d/1OIRtAooBaISzCi2Me4VV3cAYRIwc2UQm/view?usp=sharing]
+🔗 **Project Demo Video:** [Watch on Google Drive](https://drive.google.com/file/d/1OIRtAooBaISzCi2Me4VV3cAYRIwc2UQm/view?usp=sharing)
 
-## 📑 Worksheets Structure
+## 📑 Worksheets Overview
 
 ### 🎓 1. Student Grade
-- Calculate total marks and average scores using `=SUM()` and `=ROUND(AVERAGE(), 2)`.
-- Classify student grades using nested `IF` formulas (`A+`, `A`, `B`, `C`, `F`).
-- Apply `AND` and `OR` logical conditions for high-performer evaluation.
-- Count students using `COUNTIF` and `COUNTIFS`.
-- Calculate conditional averages using `AVERAGEIF`.
-- Retrieve student details using `VLOOKUP`.
-- Extract student records dynamically using the `=FILTER()` function.
-- Calculate age and date differences using `=DATEDIF()`.
+
+This worksheet focuses on student performance analysis using Excel formulas.
+
+**Key Tasks:**
+
+- Calculate total marks using `SUM()`.
+- Calculate average marks using `AVERAGE()` and `ROUND()`.
+- Assign grades using nested `IF()` formulas.
+- Evaluate conditions using `AND()` and `OR()`.
+- Count students using `COUNTIF()` and `COUNTIFS()`.
+- Calculate conditional averages using `AVERAGEIF()`.
+- Retrieve student details using `VLOOKUP()`.
+- Filter student records dynamically using `FILTER()`.
+- Calculate age and date differences using `DATEDIF()`.
 
 ### 📈 2. Sales Data
-- Calculate sales totals and tiered customer discounts using nested `IF`.
-- Apply conditional boolean formulas (`IF` with `OR`) for discount eligibility.
-- Summarize sales across products and regions using a 2-way `=SUMIFS()` matrix.
-- Retrieve product prices and salesperson metrics using `VLOOKUP`, `INDEX-MATCH`, and `XLOOKUP`.
-- Locate product positions using `XMATCH`.
-- Practice mathematical threshold rounding using `ROUND`, `CEILING`, and `FLOOR`.
-- Explore dynamic range offsets using `=OFFSET()` and cell referencing with `=INDIRECT()`.
+
+This worksheet demonstrates sales analysis, discount calculations, and product information retrieval.
+
+**Key Tasks:**
+
+- Calculate sales totals and customer discounts using nested `IF()`.
+- Check discount eligibility using `IF()` and `OR()`.
+- Summarize sales by product and region using `SUMIFS()`.
+- Retrieve product prices using `VLOOKUP()` and `XLOOKUP()`.
+- Find matching records using `INDEX()` and `MATCH()`.
+- Locate product positions using `XMATCH()`.
+- Apply rounding rules using `ROUND()`, `CEILING()`, and `FLOOR()`.
+- Explore dynamic references using `OFFSET()` and `INDIRECT()`.
 
 ### 👥 3. Employee Data
-- Retrieve employee details and dynamic salary information.
-- Calculate employee tenure and service days using `=DATEDIF()` and `=TODAY()`.
-- Standardize and clean employee name strings using `=LOWER()`.
-- Implement dynamic cell references using `=INDIRECT()`.
-- Apply `INDEX-MATCH` and `XLOOKUP` to find employee information dynamically.
 
----
+This worksheet focuses on employee information, salary retrieval, and service duration calculations.
 
-## 🛠️ Key Excel Functions Covered
+**Key Tasks:**
+
+- Retrieve employee details using lookup functions.
+- Retrieve salary information using dynamic references.
+- Calculate employee tenure and service duration using `DATEDIF()` and `TODAY()`.
+- Standardize employee names using `LOWER()`.
+- Retrieve information using `INDEX()`, `MATCH()`, and `XLOOKUP()`.
+- Practice indirect cell referencing using `INDIRECT()`.
+
+## 🛠️ Excel Functions Used
 
 | Category | Functions |
 |---|---|
-| **Mathematical & Statistical** | `SUM`, `AVERAGE`, `MAX`, `MIN`, `ROUND` |
-| **Conditional Logic** | `IF`, Nested `IF`, `AND`, `OR` |
-| **Counting & Summarizing** | `COUNTIF`, `COUNTIFS`, `SUMIFS`, `AVERAGEIF` |
-| **Lookup & Reference** | `VLOOKUP`, `XLOOKUP`, `INDEX`, `MATCH`, `XMATCH` |
-| **Dynamic References** | `INDIRECT`, `OFFSET` |
-| **Text Manipulation** | `LEFT`, `FIND`, `UPPER`, `LOWER` |
-| **Date & Time** | `DATEDIF`, `TODAY` |
-| **Dynamic Arrays** | `FILTER` |
-| **Threshold Rounding** | `ROUND`, `CEILING`, `FLOOR` |
-
----
+| Mathematical & Statistical | `SUM`, `AVERAGE`, `MAX`, `MIN`, `ROUND` |
+| Logical | `IF`, Nested `IF`, `AND`, `OR` |
+| Counting & Summarizing | `COUNTIF`, `COUNTIFS`, `SUMIFS`, `AVERAGEIF` |
+| Lookup & Reference | `VLOOKUP`, `XLOOKUP`, `INDEX`, `MATCH`, `XMATCH` |
+| Dynamic References | `INDIRECT`, `OFFSET` |
+| Text Manipulation | `LEFT`, `FIND`, `UPPER`, `LOWER` |
+| Date & Time | `DATEDIF`, `TODAY` |
+| Dynamic Arrays | `FILTER` |
+| Rounding | `ROUND`, `CEILING`, `FLOOR` |
 
 ## 📸 Project Screenshots
 
+The following screenshots show the worksheets and their formula-based results.
+
 ### 1. Student Grade Data
+
 ![Student Grade Data 1](Output/01_Student-Grade-Data.png)
+
 ![Student Grade Data 2](Output/02_Student-Grade-Data.png)
 
 ### 2. Sales Data
+
 ![Sales Data](Output/03_Sales-Data.png)
 
 ### 3. Employee Data
+
 ![Employee Data 1](Output/04_Employee-Data.png)
+
 ![Employee Data 2](Output/05_Employee-Data.png)
----
 
 ## 📂 Repository Structure
 
 ```text
-01:-Fundamental-Booster-Project/
+01-Fundamental-Booster-Project/
 │
 ├── Output/
 │   ├── 01_Student-Grade-Data.png
@@ -101,33 +124,38 @@ Watch the video demonstration of the Excel Fundamental Booster Project to explor
 
 ## ▶️ How to Use This Project
 
-1. Download or clone this repository.
-2. Open the Excel workbook in Microsoft Excel.
-3. Explore the Student Grade, Sales Data, and Employee Data worksheets.
-4. Review the formulas and their results.
-5. Modify sample data to practice the functions and observe the changes.
-
----
+1. Download or clone this repository from GitHub.
+2. Open `01_Fundamental_Booster_Project.xlsx` in Microsoft Excel.
+3. Navigate through the Student Grade, Sales Data, and Employee Data worksheets.
+4. Review the formulas and their calculated results.
+5. Modify sample data to practice Excel functions and observe the changes.
+6. Refer to the screenshots and demo video to understand the project outputs.
 
 ## 📚 Key Learnings
 
-- Using Excel formulas and cell references.
-- Applying conditional and logical functions.
-- Performing calculations using multiple criteria.
-- Retrieving data using lookup functions.
-- Working with text and date functions.
-- Filtering records based on specific conditions.
-- Organizing and formatting data for readability.
+Through this project, I gained practical experience in:
+
+- Using mathematical and statistical Excel formulas.
+- Applying logical functions and conditional calculations.
+- Summarizing data using multiple criteria.
+- Retrieving information using lookup and reference functions.
+- Cleaning and manipulating text data.
+- Calculating dates and employee service duration.
+- Filtering records dynamically.
+- Organizing and presenting spreadsheet data professionally.
 
 ## 🚀 Future Improvements
 
-- Create charts to visualize student and sales performance.
+- Create charts to visualize student performance and sales trends.
 - Develop an interactive Excel dashboard.
-- Improve data presentation using conditional formatting.
-- Practice additional Excel functions with new datasets.
+- Apply conditional formatting to highlight important results.
+- Add more datasets to practice advanced Excel functions.
+- Improve reporting with additional data visualization techniques.
 
 ## 🏁 Conclusion
 
-The Fundamental Booster Excel Project provides practical experience with essential and intermediate Excel functions. It helps build a foundation in spreadsheet-based data analysis, calculations, data retrieval, and reporting.
+The **Fundamental Booster Excel Project** provided hands-on practice with essential and intermediate Excel functions across student, sales, and employee datasets.
 
-This project is part of my ongoing learning journey in Data Analytics.
+By completing this project, I strengthened my understanding of spreadsheet calculations, conditional logic, data retrieval, text manipulation, date calculations, and data analysis.
+
+This project represents an important step in my learning journey toward developing practical **Data Analytics skills**.
