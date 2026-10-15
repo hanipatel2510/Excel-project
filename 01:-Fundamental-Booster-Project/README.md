@@ -51,9 +51,6 @@ Watch the video demonstration of the Excel Fundamental Booster Project to explor
 - Implement dynamic cell references using `=INDIRECT()`.
 - Apply `INDEX-MATCH` and `XLOOKUP` to find employee information dynamically.
 
-### 📋 4. Project Instructions
-- Defines the required tasks, Excel topics, and expected learning outcomes for the workbook.
-
 ---
 
 ## 🛠️ Key Excel Functions Covered
