@@ -21,7 +21,7 @@ The project focuses on formula-based calculations, conditional logic, lookup fun
 
 Watch the video demonstration of the Excel Fundamental Booster Project to explore the worksheets, formulas, and analysis results.
 
-🔗 **Project Demo Video:** [Add your video link here]
+🔗 **Project Demo Video:** [https://drive.google.com/file/d/1OIRtAooBaISzCi2Me4VV3cAYRIwc2UQm/view?usp=sharing]
 
 ## 📑 Worksheets Structure
 
@@ -71,29 +71,32 @@ Watch the video demonstration of the Excel Fundamental Booster Project to explor
 
 ## 📸 Project Screenshots
 
-Full-sheet captures of all completed datasets are stored in the `screenshots/` directory:
+### 1. Student Grade Data
+![Student Grade Data 1](Output/01_Student-Grade-Data.png)
+![Student Grade Data 2](Output/02_Student-Grade-Data.png)
 
-| No. | File Name | Description |
-|:---:|---|---|
-| 1️⃣ | `01-student-grade.png` | Complete student grade sheet showing formulas, nested IF grades, summary tables, and dynamic FILTER results. |
-| 2️⃣ | `02-sales-data.png` | Full sales data sheet with discount logic, lookups (VLOOKUP, INDEX-MATCH, XLOOKUP), and region-wise summary matrix. |
-| 3️⃣ | `03-employee-data.png` | Complete employee sheet showing salary analytics, tenure calculations, case formatting, and employee lookup formulas. |
+### 2. Sales Data
+![Sales Data](Output/03_Sales-Data.png)
 
+### 3. Employee Data
+![Employee Data 1](Output/04_Employee-Data.png)
+![Employee Data 2](Output/05_Employee-Data.png)
 ---
 
 ## 📂 Repository Structure
 
 ```text
-Excel-Fundamental-Booster-Project/
+01:-Fundamental-Booster-Project/
+│
+├── Output/
+│   ├── 01_Student-Grade-Data.png
+│   ├── 02_Student-Grade-Data.png
+│   ├── 03_Sales-Data.png
+│   ├── 04_Employee-Data.png
+│   └── 05_Employee-Data.png
 │
 ├── 01_Fundamental_Booster_Project.xlsx
-├── README.md
-│
-└── screenshots/
-    ├── 01-student-grade.png
-    ├── 02-sales-data.png
-    └── 03-employee-data.png
-
+└── README.md
 ```
 
 ## ▶️ How to Use This Project
