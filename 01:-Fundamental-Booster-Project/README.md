@@ -21,7 +21,7 @@ The project focuses on formula-based calculations, conditional logic, lookup fun
 
 Watch the video demonstration of the Excel Fundamental Booster Project to explore the worksheets, formulas, and analysis results.
 
-🔗 **Project Demo Video:** [Click here to Watch Video Demo](https://drive.google.com/file/d/1OIRtAooBaISzCi2Me4VV3cAYRIwc2UQm/view?usp=sharing)
+🔗 **Project Demo Video:** [https://drive.google.com/file/d/1OIRtAooBaISzCi2Me4VV3cAYRIwc2UQm/view?usp=sharing]
 
 ## 📑 Worksheets Structure
 
