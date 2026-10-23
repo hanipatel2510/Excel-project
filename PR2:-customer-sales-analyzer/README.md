@@ -1,4 +1,10 @@
-# 📊 Customer Sales Analyzer
+## 🎥 Project Demo
+
+Watch the project demonstration to explore the worksheets, formulas, and calculation results.
+
+🔗 **Project Demo Video:** [Watch on Google Drive](https://drive.google.com/file/d/1OIRtAooBaISzCi2Me4VV3cAYRIwc2UQm/view?usp=sharing)
+
+## 📊 Customer Sales Analyzer
 
 The **Customer Sales Analyzer** is a Microsoft Excel project focused on analyzing sales data and customer purchasing patterns. I used Excel formulas, lookup functions, and statistical analysis to calculate total sales and profit, analyze customer purchases, compare regional performance, and identify high-value customers. The project also includes discount What-If Analysis, regression analysis, descriptive statistics, and monthly sales trend analysis. The results are organized into summary tables and a dashboard to make the data easier to understand.
 
