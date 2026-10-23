@@ -154,8 +154,6 @@ The workbook's current summary reports the following figures:
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:134E2A,50:217346,100:3FA66B&height=110&section=header&text=Output%20Screenshots&fontSize=36&fontColor=ffffff&fontAlignY=32" alt="Output Screenshots"/>
 
-## 🖼️ Output Screenshots
-
 ### 1. Executive Dashboard & Visualizations
 ![Dashboard Overview](Output/dashboard-overview.png)
 
