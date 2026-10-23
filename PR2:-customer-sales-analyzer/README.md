@@ -2,7 +2,7 @@
 
 Watch the project demonstration to explore the worksheets, formulas, and calculation results.
 
-🔗 **Project Demo Video:** [Watch on Google Drive](https://drive.google.com/file/d/1OIRtAooBaISzCi2Me4VV3cAYRIwc2UQm/view?usp=sharing)
+🔗 **Project Demo Video:** [Watch on Google Drive](https://drive.google.com/file/d/1JrXgdcClMDSiAFp-ZE5X0IylzzesXmxQ/view?usp=sharing)
 
 ## 📊 Customer Sales Analyzer
 
