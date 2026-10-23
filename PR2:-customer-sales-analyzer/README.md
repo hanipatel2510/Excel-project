@@ -70,7 +70,6 @@ The current workbook contains **200 sales records**.
 | Product Categories | 5 |
 | Regions | 5 |
 
-*Note: These results are based on the current workbook data. The source dataset does not specify a currency unit.*
 
 ---
 
