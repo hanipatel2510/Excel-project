@@ -134,22 +134,6 @@ The workbook also supports comparisons across regions and product
 categories, customer purchase segmentation, discount scenarios, and
 monthly sales trends.
 
-*These figures describe the workbook version used to prepare this
-README. Recheck the summary cells if the dataset or formulas are
-changed.*
-
-## 🚀 How to Use
-
-1.  Download or clone this repository.
-2.  Open `PR2-Customer_Sales_Analyzers.xlsx` in Microsoft Excel.
-3.  Review the `Dataset`, `Analysis`, and `Dashboard` worksheets.
-4.  Select formula cells to inspect their formulas in Excel's formula
-    bar.
-5.  If you change the source data, check the formula ranges and refresh
-    the PivotTables.
-6.  To rerun regression or descriptive statistics, enable the **Analysis
-    ToolPak** add-in in Excel.
-
 ## ⚠️ Data Notes
 
 -   The customer ID and customer name mapping should be checked if an ID
