@@ -43,38 +43,28 @@ analysis easier to understand.
 
 The `Dataset` worksheet contains **200 transaction records**.
 
-  Column               Description
-  -------------------- --------------------------------
-  `Customer_ID`        Customer identifier
-  `Customer_Name`      Customer name
-  `Region`             Sales region
-  `Product_Category`   Product category
-  `Sales`              Sales amount for a transaction
-  `Quantity`           Number of units sold
-  `Discount`           Discount rate
-  `Order_Date`         Transaction date
-  `Profit`             Profit for a transaction
+| Column | Description |
+|---|---|
+| `Customer_ID` | Customer identifier |
+| `Customer_Name` | Customer name |
+| `Region` | Sales region |
+| `Product_Category` | Product category |
+| `Sales` | Sales amount for a transaction |
+| `Quantity` | Number of units sold |
+| `Discount` | Discount rate |
+| `Order_Date` | Transaction date |
+| `Profit` | Profit for a transaction |
 
 ## 📂 Workbook Structure
 
-  -----------------------------------------------------------------------
-  Worksheet                           Description
-  ----------------------------------- -----------------------------------
-  `Dataset`                           Source transaction records used for
-                                      the analysis
+| Worksheet | Description |
+|---|---|
+| `Dataset` | Source transaction records used for the analysis |
+| `Analysis` | Customer purchase analysis, discount scenarios, regression, descriptive statistics, monthly sales growth, and high-value customer analysis |
+| `Dashboard` | KPI summaries, PivotTable analysis, and charts |
+| `Dashboard Summary` | Written summary of the main findings |
 
-  `Analysis`                          Customer purchase analysis,
-                                      discount scenarios, regression,
-                                      descriptive statistics, monthly
-                                      sales growth, and high-value
-                                      customer analysis
-
-  `Dashboard`                         KPI summaries, PivotTable analysis,
-                                      and charts
-
-  `Dashboard Summary`                 Written summary of the main
-                                      findings
-  -----------------------------------------------------------------------
+---
 
 ## ✅ Analysis Performed
 
@@ -101,12 +91,14 @@ The `Dataset` worksheet contains **200 transaction records**.
 
 **Formulas and Functions**
 
--   **Aggregation:** `SUM`, `AVERAGE`, `MEDIAN`, `MIN`, `MAX`, `COUNT`
--   **Logical and error handling:** `IF`, `IFERROR`
--   **Conditional aggregation:** `SUMIF`, `SUMIFS`
--   **Lookup and matching:** `VLOOKUP`, `INDEX`, `MATCH`
--   **Dynamic arrays:** `UNIQUE`, `FILTER`
--   **Date and time:** `EDATE`, `NOW`
+| Purpose | Functions |
+|---|---|
+| Aggregation | `SUM`, `AVERAGE`, `MEDIAN`, `MIN`, `MAX`, `COUNT` |
+| Logical and error handling | `IF`, `IFERROR` |
+| Conditional aggregation | `SUMIF`, `SUMIFS` |
+| Lookup and matching | `VLOOKUP`, `INDEX`, `MATCH` |
+| Dynamic arrays | `UNIQUE`, `FILTER` |
+| Date and time | `EDATE`, `NOW` | **Date and time:** `EDATE`, `NOW`
 
 **Analysis Features**
 
@@ -122,32 +114,24 @@ The `Dataset` worksheet contains **200 transaction records**.
 
 The workbook's current summary reports the following figures:
 
-  Metric                      Result
-  --------------------- ------------
-  Total Sales             195,217.76
-  Total Profit             68,287.01
-  Transaction Records            200
-  Product Categories               5
-  Sales Regions                    5
+| Metric | Result |
+|---|---:|
+| Total Sales | 195,217.76 |
+| Total Profit | 68,287.01 |
+| Profit Margin | ≈ 35.0% |
+| Transaction Records | 200 |
+| Product Categories | 5 |
+| Sales Regions | 5 |
 
-The workbook also supports comparisons across regions and product
-categories, customer purchase segmentation, discount scenarios, and
-monthly sales trends.
 
-## ⚠️ Data Notes
+## 💡 Key Business Insights
 
--   The customer ID and customer name mapping should be checked if an ID
-    appears with more than one name; lookup formulas such as `VLOOKUP`
-    return the first matching record.
--   Some formulas use fixed row ranges. Extend those ranges if
-    additional transaction records are added.
--   `NOW()` is a volatile function and updates when Excel recalculates
-    the workbook.
--   Check that KPI formulas use consistent data ranges, especially when
-    new rows are added.
--   Dynamic-array functions such as `UNIQUE` and `FILTER` require a
-    compatible Excel version. Function availability may differ in other
-    spreadsheet applications.
+- **Top region:** West leads with about 44,084 in sales, followed by Central (≈ 43,468) and South (≈ 40,249). East is the lowest (≈ 32,442).
+- **Top category:** Books generate the highest sales (≈ 47,002), while Office Supplies are the weakest (≈ 28,631).
+- **Sales vs. profit:** Regression gives Profit ≈ 0.351 × Sales − 1.03 with R² ≈ 0.60, so sales explain about 60% of the variation in profit. The relationship is statistically significant (p < 0.001).
+- **High-value customers:** Several customers exceed 8,000 in total purchases, with CUST015 (≈ 11,611) and CUST028 (≈ 10,294) among the highest.
+- **Discount impact:** The What-If analysis compares profit under discount rates from 0% to 20%.
+- **Trend analysis:** Monthly sales and month-over-month growth are tracked and shown with up/down indicators.
 
 ---
 
@@ -168,6 +152,8 @@ monthly sales trends.
 ### 5. Project Executive Summary
 ![Dashboard Summary](Output/project-summary-card.png)
 
+---
+
 ## 🚀 How to Use
 
 1. Download or clone this repository.
@@ -182,7 +168,7 @@ monthly sales trends.
 PR2-Customer-Sales-Analyzer/
 │
 ├── README.md
-├── PR2-Customer_Sales_Analyzer.xlsx
+├── PR2-Customer_Sales_Analyzers.xlsx
 └── Output/
     ├── dashboard-overview.png
     ├── dashboard-overview1.png
@@ -190,14 +176,6 @@ PR2-Customer-Sales-Analyzer/
     ├── customer-lookup-trends.png
     └── project-summary-card.png
 ```
-## 💡 Key Business Insights
-
-- Analyzed overall sales and profit performance using summary metrics.
-- Compared sales performance across regions and product categories.
-- Examined customer purchasing patterns to identify high-value customers.
-- Explored the potential impact of different discount scenarios on profit.
-- Reviewed monthly sales trends to understand changes in performance.
-
 
 ## 🔮 Future Improvements
 
@@ -206,5 +184,18 @@ PR2-Customer-Sales-Analyzer/
 - Improve formatting with consistent colors, number formats, and conditional formatting.
 - Validate formulas and refresh dashboard outputs when the source data changes.
 - Add business recommendations based on the analysis results.
+
+## ✅ Conclusion
+
+The **Customer Sales Analyzer** project shows how Microsoft Excel can be used to turn raw transaction data into clear, decision-ready insights.
+
+- The dataset of 200 transactions generated **195,217.76 in sales** and **68,287.01 in profit**, a profit margin of about **35%**.
+- **West** is the strongest region and **Books** is the strongest product category, while **Office Supplies** has the lowest sales.
+- Regression analysis shows a **strong, statistically significant link between sales and profit** (R² ≈ 0.60).
+- Customer analysis identifies **high-value customers** who contribute a large share of total purchases and are worth prioritising.
+- What-If Analysis helps estimate how different discount levels can affect overall profit.
+- The dashboard brings these results together through KPIs and charts, so performance can be understood at a glance.
+
+Overall, the project demonstrates practical skills in formulas, lookup functions, statistical analysis, PivotTables, and data visualization.
 
 ---
