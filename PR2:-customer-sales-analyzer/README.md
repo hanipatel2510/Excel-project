@@ -59,27 +59,22 @@ The current workbook contains 200 sales records.
 
 ---
 
-🖼️ Output Screenshots
+## 🖼️ Output Screenshots
 
 ### 1. Executive Dashboard & Visualizations
 ![Dashboard Overview](Output/dashboard-overview.png)
-> Displays core KPI cards (Total Sales, Total Profit, Profit Margin) alongside multi-category breakdown and regional charts.
 
 ### 2. Monthly Revenue Trend & Seasonality
 ![Monthly Sales Trend](Output/dashboard-overview1.png)
-> Line chart tracking month-over-month sales velocity from April 2024 to April 2025, highlighting the September 2024 revenue peak.
 
 ### 3. Statistical Regression & What-If Sensitivity Analysis
 ![Statistical Analysis](Output/statistical-modeling.png)
-> Highlights Linear Regression output (R² = 0.60) proving the positive sales-profit correlation, paired with What-If discount sensitivity modeling (0%–20%).
 
 ### 4. Customer Lookup & High-Value Segmentation
 ![Customer Analytics](Output/customer-lookup-trends.png)
-> Demonstrates dynamic data retrieval using INDEX & MATCH for top customer identification, automated timestamps via NOW(), and filtering high-value customers (> 8,000).
 
 ### 5. Project Executive Summary
 ![Dashboard Summary](Output/project-summary-card.png)
-> Executive summary card consolidating business insights, category performance, analytical methods, and strategic decisions.:** The screenshot references are placeholders until you add your actual Excel screenshots. Include only outputs that are completed and verified in your workbook.
 
 ## 🚀 How to Use
 
