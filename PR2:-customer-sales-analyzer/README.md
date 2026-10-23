@@ -1,8 +1,28 @@
+<!-- ======================= HEADER WAVE ======================= -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=140&section=header&text=Customer%20Sales%20Analyzer&fontSize=30&fontColor=ffffff&fontAlignY=38&desc=Excel-Based%20Sales%20Analytics%20Project&descSize=15&descAlignY=58&animation=fadeIn" alt="Customer Sales Analyzer Header"/>
+
+<div align="center">
+
+![Tool](https://img.shields.io/badge/Tool-Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Domain](https://img.shields.io/badge/Domain-Sales%20Analytics-2563EB?style=for-the-badge)
+![Records](https://img.shields.io/badge/Records-200-F59E0B?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-16A34A?style=for-the-badge)
+
+</div>
+
+---
+
 ## 🎥 Project Demo
 
 Watch the project demonstration to explore the worksheets, formulas, and calculation results.
 
-🔗 **Project Demo Video:** [Watch on Google Drive](https://drive.google.com/file/d/1JrXgdcClMDSiAFp-ZE5X0IylzzesXmxQ/view?usp=sharing)
+<div align="center">
+
+🔗 **Project Demo Video:** [▶️ Watch on Google Drive](https://drive.google.com/file/d/1JrXgdcClMDSiAFp-ZE5X0IylzzesXmxQ/view?usp=sharing)
+
+</div>
+
+---
 
 ## 📊 Customer Sales Analyzer
 
@@ -10,11 +30,6 @@ An Excel-based sales analytics project that transforms customer
 transaction data into useful business insights using Excel formulas,
 customer analysis, What-If Analysis, statistical analysis, PivotTables,
 and dashboard visualizations.
-
-![Tool](https://img.shields.io/badge/Tool-Microsoft%20Excel-217346?logo=microsoft-excel&logoColor=white)
-![Domain](https://img.shields.io/badge/Domain-Sales%20Analytics-blue)
-![Records](https://img.shields.io/badge/Records-200-orange)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ---
 
@@ -30,14 +45,14 @@ analysis easier to understand.
 
 ## 🎯 Project Objectives
 
--   Summarize sales, profit, and profit margin.
--   Identify customers with high total purchases.
--   Compare sales performance across regions and product categories.
--   Explore discount scenarios using What-If Analysis.
--   Examine the relationship between sales and profit through
-    regression.
--   Analyze monthly sales trends and present key metrics in a dashboard.
+- 📌 Summarize sales, profit, and profit margin.
+- 👥 Identify customers with high total purchases.
+- 🌍 Compare sales performance across regions and product categories.
+- 🏷️ Explore discount scenarios using What-If Analysis.
+- 📉 Examine the relationship between sales and profit through regression.
+- 📅 Analyze monthly sales trends and present key metrics in a dashboard.
 
+---
 
 ## 🗂️ Dataset
 
@@ -68,24 +83,15 @@ The `Dataset` worksheet contains **200 transaction records**.
 
 ## ✅ Analysis Performed
 
-1.  **Customer Sales Analysis:** Calculates total purchases by customer
-    and supports customer ranking.
-2.  **Discount What-If Analysis:** Compares profit estimates under
-    different discount scenarios.
-3.  **Regression Analysis:** Examines the relationship between sales and
-    profit using Excel's Data Analysis ToolPak.
-4.  **Descriptive Statistics:** Summarizes selected data using measures
-    such as mean, median, standard deviation, minimum, and maximum.
-5.  **Monthly Sales Trends:** Calculates monthly sales and
-    month-over-month growth.
-6.  **Timestamp:** Uses `NOW()` to show the workbook's recalculation
-    date and time.
-7.  **High-Value Customers:** Filters customers whose total purchases
-    exceed 8,000.
-8.  **Regional and Category Analysis:** Uses a PivotTable to summarize
-    sales by region and product category.
-9.  **Dashboard Visualization:** Presents key metrics through KPI
-    summaries and bar, line, and pie charts.
+1. **Customer Sales Analysis:** Calculates total purchases by customer and supports customer ranking.
+2. **Discount What-If Analysis:** Compares profit estimates under different discount scenarios.
+3. **Regression Analysis:** Examines the relationship between sales and profit using Excel's Data Analysis ToolPak.
+4. **Descriptive Statistics:** Summarizes selected data using measures such as mean, median, standard deviation, minimum, and maximum.
+5. **Monthly Sales Trends:** Calculates monthly sales and month-over-month growth.
+6. **Timestamp:** Uses `NOW()` to show the workbook's recalculation date and time.
+7. **High-Value Customers:** Filters customers whose total purchases exceed 8,000.
+8. **Regional and Category Analysis:** Uses a PivotTable to summarize sales by region and product category.
+9. **Dashboard Visualization:** Presents key metrics through KPI summaries and bar, line, and pie charts.
 
 ## 🛠️ Excel Functions and Features
 
@@ -98,17 +104,30 @@ The `Dataset` worksheet contains **200 transaction records**.
 | Conditional aggregation | `SUMIF`, `SUMIFS` |
 | Lookup and matching | `VLOOKUP`, `INDEX`, `MATCH` |
 | Dynamic arrays | `UNIQUE`, `FILTER` |
-| Date and time | `EDATE`, `NOW` | **Date and time:** `EDATE`, `NOW`
+| Date and time | `EDATE`, `NOW` |
 
 **Analysis Features**
 
--   Conditional Formatting
--   What-If Analysis
--   Regression and Descriptive Statistics using the Data Analysis
-    ToolPak
--   PivotTables
--   KPI summaries and charts
--   Custom number formatting for growth indicators
+- 🎨 Conditional Formatting
+- 🔮 What-If Analysis
+- 📐 Regression and Descriptive Statistics using the Data Analysis ToolPak
+- 🧮 PivotTables
+- 📊 KPI summaries and charts
+- 🔢 Custom number formatting for growth indicators
+
+---
+## 🧮 Key Formulas Used
+
+| Purpose | Formula |
+|---|---|
+| Total Sales | `=SUM(Dataset!E2:E201)` |
+| Total Profit | `=SUM(Dataset!I2:I201)` |
+| Profit Margin | `=SUM(Dataset!I2:I201)/SUM(Dataset!E2:E201)` |
+| Customer Total Purchase | `=SUMIF(Dataset!A2:A201, A2, Dataset!E2:E201)` |
+| Region-wise Sales | `=SUMIFS(Dataset!E:E, Dataset!C:C, "West")` |
+| Customer Lookup | `=IFERROR(INDEX(Dataset!B:B, MATCH(A2, Dataset!A:A, 0)), "Not Found")` |
+| High-Value Customers | `=FILTER(A2:B30, B2:B30>8000)` |
+| Month-over-Month Growth | `=(C3-C2)/C2` |
 
 ## 📈 Key Results
 
@@ -116,13 +135,12 @@ The workbook's current summary reports the following figures:
 
 | Metric | Result |
 |---|---:|
-| Total Sales | 195,217.76 |
-| Total Profit | 68,287.01 |
-| Profit Margin | ≈ 35.0% |
-| Transaction Records | 200 |
-| Product Categories | 5 |
-| Sales Regions | 5 |
-
+| 💰 Total Sales | 195,217.76 |
+| 📈 Total Profit | 68,287.01 |
+| 🎯 Profit Margin | ≈ 35.0% |
+| 🧾 Transaction Records | 200 |
+| 🛍️ Product Categories | 5 |
+| 🌍 Sales Regions | 5 |
 
 ## 💡 Key Business Insights
 
@@ -134,6 +152,8 @@ The workbook's current summary reports the following figures:
 - **Trend analysis:** Monthly sales and month-over-month growth are tracked and shown with up/down indicators.
 
 ---
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:134E2A,50:217346,100:3FA66B&height=110&section=header&text=Output%20Screenshots&fontSize=36&fontColor=ffffff&fontAlignY=32" alt="Output Screenshots"/>
 
 ## 🖼️ Output Screenshots
 
@@ -185,6 +205,8 @@ PR2-Customer-Sales-Analyzer/
 - Validate formulas and refresh dashboard outputs when the source data changes.
 - Add business recommendations based on the analysis results.
 
+---
+
 ## ✅ Conclusion
 
 The **Customer Sales Analyzer** project shows how Microsoft Excel can be used to turn raw transaction data into clear, decision-ready insights.
@@ -198,4 +220,4 @@ The **Customer Sales Analyzer** project shows how Microsoft Excel can be used to
 
 Overall, the project demonstrates practical skills in formulas, lookup functions, statistical analysis, PivotTables, and data visualization.
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:134E2A,50:217346,100:3FA66B&height=120&section=footer&text=Thank%20You&fontSize=30&fontColor=ffffff&fontAlignY=65" alt="Thank You"/>
