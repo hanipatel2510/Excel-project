@@ -6,70 +6,164 @@ Watch the project demonstration to explore the worksheets, formulas, and calcula
 
 ## 📊 Customer Sales Analyzer
 
-The **Customer Sales Analyzer** is a Microsoft Excel project focused on analyzing sales data and customer purchasing patterns. I used Excel formulas, lookup functions, and statistical analysis to calculate total sales and profit, analyze customer purchases, compare regional performance, and identify high-value customers. The project also includes discount What-If Analysis, regression analysis, descriptive statistics, and monthly sales trend analysis. The results are organized into summary tables and a dashboard to make the data easier to understand.
+An Excel-based sales analytics project that transforms customer
+transaction data into useful business insights using Excel formulas,
+customer analysis, What-If Analysis, statistical analysis, PivotTables,
+and dashboard visualizations.
+
+![Tool](https://img.shields.io/badge/Tool-Microsoft%20Excel-217346?logo=microsoft-excel&logoColor=white)
+![Domain](https://img.shields.io/badge/Domain-Sales%20Analytics-blue)
+![Records](https://img.shields.io/badge/Records-200-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ---
 
-## 🎯 Project Objective
+## 🔎 Project Overview
 
-The objective of this project is to transform raw sales records into meaningful business insights and demonstrate practical Excel skills for data analysis.
+**Customer Sales Analyzer** is a practical Microsoft Excel project
+focused on understanding sales performance and customer purchasing
+patterns. The workbook uses formulas, lookup functions, statistical
+tools, and summary tables to analyze transactions, compare regions and
+product categories, explore discount scenarios, and review monthly sales
+trends. The results are presented through a dashboard to make the
+analysis easier to understand.
 
-**Key objectives:**
-- Analyze total sales, profit, and profit margin.
-- Identify high-value customers based on their purchases.
-- Compare sales performance across regions and product categories.
-- Explore discount scenarios and the relationship between sales and profit.
-- Analyze monthly sales trends and present key metrics through a dashboard.
+## 🎯 Project Objectives
+
+-   Summarize sales, profit, and profit margin.
+-   Identify customers with high total purchases.
+-   Compare sales performance across regions and product categories.
+-   Explore discount scenarios using What-If Analysis.
+-   Examine the relationship between sales and profit through
+    regression.
+-   Analyze monthly sales trends and present key metrics in a dashboard.
+
+
+## 🗂️ Dataset
+
+The `Dataset` worksheet contains **200 transaction records**.
+
+  Column               Description
+  -------------------- --------------------------------
+  `Customer_ID`        Customer identifier
+  `Customer_Name`      Customer name
+  `Region`             Sales region
+  `Product_Category`   Product category
+  `Sales`              Sales amount for a transaction
+  `Quantity`           Number of units sold
+  `Discount`           Discount rate
+  `Order_Date`         Transaction date
+  `Profit`             Profit for a transaction
 
 ## 📂 Workbook Structure
 
-| Worksheet | Description |
-|---|---|
-| `Dataset` | Contains the original sales records and related customer, product, region, and transaction details. |
-| `Analysis` | Includes customer sales analysis, discount What-If Analysis, regression, descriptive statistics, monthly sales trends, and high-value customer analysis. |
-| `Dashboard` | Presents regional sales breakdowns, product category summaries, KPIs, and monthly sales summaries. |
-| `Dashboard Summary` | Provides additional summary information for project reporting and future improvements. |
+  -----------------------------------------------------------------------
+  Worksheet                           Description
+  ----------------------------------- -----------------------------------
+  `Dataset`                           Source transaction records used for
+                                      the analysis
 
-## 🛠️ Skills & Excel Features
+  `Analysis`                          Customer purchase analysis,
+                                      discount scenarios, regression,
+                                      descriptive statistics, monthly
+                                      sales growth, and high-value
+                                      customer analysis
+
+  `Dashboard`                         KPI summaries, PivotTable analysis,
+                                      and charts
+
+  `Dashboard Summary`                 Written summary of the main
+                                      findings
+  -----------------------------------------------------------------------
+
+## ✅ Analysis Performed
+
+1.  **Customer Sales Analysis:** Calculates total purchases by customer
+    and supports customer ranking.
+2.  **Discount What-If Analysis:** Compares profit estimates under
+    different discount scenarios.
+3.  **Regression Analysis:** Examines the relationship between sales and
+    profit using Excel's Data Analysis ToolPak.
+4.  **Descriptive Statistics:** Summarizes selected data using measures
+    such as mean, median, standard deviation, minimum, and maximum.
+5.  **Monthly Sales Trends:** Calculates monthly sales and
+    month-over-month growth.
+6.  **Timestamp:** Uses `NOW()` to show the workbook's recalculation
+    date and time.
+7.  **High-Value Customers:** Filters customers whose total purchases
+    exceed 8,000.
+8.  **Regional and Category Analysis:** Uses a PivotTable to summarize
+    sales by region and product category.
+9.  **Dashboard Visualization:** Presents key metrics through KPI
+    summaries and bar, line, and pie charts.
+
+## 🛠️ Excel Functions and Features
 
 **Formulas and Functions**
-- Statistical functions: `SUM`, `AVERAGE`, `MEDIAN`, `MIN`, `MAX`, `COUNT`
-- Logical functions: `IF`, `IFERROR`
-- Conditional aggregation: `SUMIF`, `SUMIFS`
-- Lookup functions: `VLOOKUP`, `INDEX`, `MATCH`
-- Date functions: `EDATE`, `NOW`, and monthly date calculations
 
-**Data Analysis Techniques**
-- Customer-level sales calculations
-- Discount What-If Analysis
-- Regression analysis and descriptive statistics
-- Monthly sales trend and growth analysis
-- Regional and product category comparisons
-- KPI summaries and dashboard reporting
+-   **Aggregation:** `SUM`, `AVERAGE`, `MEDIAN`, `MIN`, `MAX`, `COUNT`
+-   **Logical and error handling:** `IF`, `IFERROR`
+-   **Conditional aggregation:** `SUMIF`, `SUMIFS`
+-   **Lookup and matching:** `VLOOKUP`, `INDEX`, `MATCH`
+-   **Dynamic arrays:** `UNIQUE`, `FILTER`
+-   **Date and time:** `EDATE`, `NOW`
 
-## 🔍 Analysis Highlights
+**Analysis Features**
 
-1. **Customer Sales Analysis:** Retrieves customer names using customer IDs and calculates total purchases.
-2. **Discount What-If Analysis:** Estimates profit under different discount assumptions.
-3. **Regression Analysis:** Examines the relationship between sales and profit.
-4. **Descriptive Statistics:** Calculates statistical measures for sales and profit.
-5. **Monthly Sales Trend:** Summarizes monthly sales and calculates growth.
-6. **High-Value Customer Analysis:** Identifies customers whose total purchases exceed 8,000.
-7. **Regional Sales Analysis:** Compares sales across regions and product categories.
-8. **KPI Summary:** Presents total sales, total profit, profit margin, and record count.
+-   Conditional Formatting
+-   What-If Analysis
+-   Regression and Descriptive Statistics using the Data Analysis
+    ToolPak
+-   PivotTables
+-   KPI summaries and charts
+-   Custom number formatting for growth indicators
 
 ## 📈 Key Results
 
-The current workbook contains **200 sales records**.
+The workbook's current summary reports the following figures:
 
-| Metric | Result |
-|---|---:|
-| Total Sales | 195,217.76 |
-| Total Profit | 68,287.01 |
-| Total Records | 200 |
-| Product Categories | 5 |
-| Regions | 5 |
+  Metric                      Result
+  --------------------- ------------
+  Total Sales             195,217.76
+  Total Profit             68,287.01
+  Transaction Records            200
+  Product Categories               5
+  Sales Regions                    5
 
+The workbook also supports comparisons across regions and product
+categories, customer purchase segmentation, discount scenarios, and
+monthly sales trends.
+
+*These figures describe the workbook version used to prepare this
+README. Recheck the summary cells if the dataset or formulas are
+changed.*
+
+## 🚀 How to Use
+
+1.  Download or clone this repository.
+2.  Open `PR2-Customer_Sales_Analyzers.xlsx` in Microsoft Excel.
+3.  Review the `Dataset`, `Analysis`, and `Dashboard` worksheets.
+4.  Select formula cells to inspect their formulas in Excel's formula
+    bar.
+5.  If you change the source data, check the formula ranges and refresh
+    the PivotTables.
+6.  To rerun regression or descriptive statistics, enable the **Analysis
+    ToolPak** add-in in Excel.
+
+## ⚠️ Data Notes
+
+-   The customer ID and customer name mapping should be checked if an ID
+    appears with more than one name; lookup formulas such as `VLOOKUP`
+    return the first matching record.
+-   Some formulas use fixed row ranges. Extend those ranges if
+    additional transaction records are added.
+-   `NOW()` is a volatile function and updates when Excel recalculates
+    the workbook.
+-   Check that KPI formulas use consistent data ranges, especially when
+    new rows are added.
+-   Dynamic-array functions such as `UNIQUE` and `FILTER` require a
+    compatible Excel version. Function availability may differ in other
+    spreadsheet applications.
 
 ---
 
