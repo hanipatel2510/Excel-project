@@ -1,8 +1,7 @@
 <!-- ======================= HEADER WAVE ======================= -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=140&section=header&text=Customer%20Sales%20Analyzer&fontSize=30&fontColor=ffffff&fontAlignY=38&desc=Excel-Based%20Sales%20Analytics%20Project&descSize=15&descAlignY=58&animation=fadeIn" alt="Customer Sales Analyzer Header"/>
-
 <div align="center">
-
+    
 ![Tool](https://img.shields.io/badge/Tool-Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Domain](https://img.shields.io/badge/Domain-Sales%20Analytics-2563EB?style=for-the-badge)
 ![Records](https://img.shields.io/badge/Records-200-F59E0B?style=for-the-badge)
