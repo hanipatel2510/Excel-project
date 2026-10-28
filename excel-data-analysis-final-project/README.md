@@ -153,20 +153,25 @@ The **Dashboard** sheet gives a one-glance business summary:
 
 
 ### 1. Dataset — Raw Transaction Data
-![Dataset](Output/01-dataset.png)
+![Dataset](Output/00-dataset.png)
 
-### 2. Tasks — Formulas (VLOOKUP, INDEX-MATCH, SUMIF, Nested IF)
+### 2. Data Cleaning — Missing & Duplicate Values Report
+![Data Cleaning](Output/01-data-cleaning.png)
+
+### 3. Tasks — Formulas (VLOOKUP, INDEX-MATCH, SUMIF, Nested IF)
 ![Tasks Formulas](Output/02-tasks-formulas.png)
 
-### 3. Conditional Formatting & Top 10 Sales
+### 4. Conditional Formatting & Top 10 Sales
 ![Conditional Formatting](Output/03-conditional-formatting.png)
 
-### 4. Sales Analysis Dashboard
+### 5. Sales Analysis Dashboard
 ![Dashboard](Output/04-dashboard.png)
 
-### 5. Pivot Analysis — Slicers & Timeline
-![Pivot Analysis](Output/05-pivot-analysis.png)
+### 6. Scatter Graph — Orders vs Sales by Sub-Category
+![Scatter Graph](Output/05-scatter-graph.png)
 
+### 7. Pivot Analysis — Slicers & Timeline
+![Pivot Analysis](Output/06-pivot-timeline.png)
 ---
 
 ## 🚀 How to Use
