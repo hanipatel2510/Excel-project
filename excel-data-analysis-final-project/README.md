@@ -153,10 +153,10 @@ The **Dashboard** sheet gives a one-glance business summary:
 
 
 ### 1. Dataset — Raw Transaction Data
-![Dataset](Output/00-dataset.png)
+![Dataset](Output/00-Dataset.png)
 
 ### 2. Data Cleaning — Missing & Duplicate Values Report
-![Data Cleaning](Output/01-data-cleaning.png)
+![Data Cleaning](Output/01-Data-cleaning.png)
 
 ### 3. Tasks — Formulas (VLOOKUP, INDEX-MATCH, SUMIF, Nested IF)
 ![Tasks Formulas](Output/02-tasks-formulas.png)
