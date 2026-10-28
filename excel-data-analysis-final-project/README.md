@@ -153,7 +153,7 @@ The **Dashboard** sheet gives a one-glance business summary:
 
 
 ### 1. Dataset — Raw Transaction Data
-![Dataset](Output/00-Dataset.png)
+![Dataset](Output/Dataset.png)
 
 ### 2. Data Cleaning — Missing & Duplicate Values Report
 ![Data Cleaning](Output/01-Data-cleaning.png)
@@ -171,7 +171,8 @@ The **Dashboard** sheet gives a one-glance business summary:
 ![Scatter Graph](Output/05-scatter-graph.png)
 
 ### 7. Pivot Analysis — Slicers & Timeline
-![Pivot Analysis](Output/06-pivot-timeline.png)
+![Pivot Analysis](Output/06-pivot-analysis.png)
+
 ---
 
 ## 🚀 How to Use
