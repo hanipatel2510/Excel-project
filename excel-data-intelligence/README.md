@@ -5,6 +5,17 @@
 ![Analytics](https://img.shields.io/badge/Data_Analytics-Business_Intelligence-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
+## 🎥 Project Demo
+
+Watch the project demonstration to explore the worksheets, formulas, and calculation results.
+
+<div align="center">
+
+🔗 **Project Demo Video:** [▶️ Watch on Google Drive](https://drive.google.com/file/d/15-Y81eJOt8NlLtjtyL0qiNK6vj9jLJBL/view?usp=sharing)
+
+</div>
+
+---
 ## 📌 Project Overview
 Yeh project ek comprehensive **Retail Sales Data Intelligence & Business Analytics Dashboard** hai jise Microsoft Excel ke advanced analytical functions, dynamic modeling, aur statistical tools ka upyog karke build kiya gaya hai.
 
@@ -87,28 +98,28 @@ Workbook ko structured aur modular workflow me divide kiya gaya hai:
 ### 1. Raw Dataset Layer (`Dataset.png`)
 250 verified retail sales records ka master transactional repository jisme transaction details, customer profiles, product categories aur payment methods properly clean aur structured hain.
 
-![Dataset Preview](Dataset.png)
+![Dataset Preview](Output/Dataset.png)
 
 ---
 
 ### 2. Core KPI & Data Analysis Engine (`Data-analysis.png`)
 Category-wise revenue distribution, product-level unit sales aggregation, regional metrics aur dynamic date calculations (`TODAY()`, `NOW()`, `MIN()`, `MAX()`).
 
-![Data Analysis Preview](Data-analysis.png)
+![Data Analysis Preview](Output/Data-analysis.png)
 
 ---
 
 ### 3. Conditional Formatting & MoM Trends (`Conditional-formating.png`)
 Dynamic time-series analysis jisme `=DATE()`, `=EDATE()`, aur `=SUMIFS()` use karke monthly sales boundary track ki gayi hai. MoM growth status automated icons (`▲ Up`, `▼ Down`, `▬ Same`) aur color bars se visualised hai.
 
-![Conditional Formatting Preview](Conditional-formating.png)
+![Conditional Formatting Preview](Output/Conditional-formating.png)
 
 ---
 
 ### 4. Advanced What-If & Linear Regression (`Linear-regression.png`)
 Excel Data Analysis Toolpak dwara Linear Regression output (Multiple R: 0.458, $R^2$: 0.2098, F-Significance: $2.26 \times 10^{-14}$) aur revenue/profit sensitivity ke liye Goal Seek aur Scenario Manager ka implementation.
 
-![Linear Regression & Modeling](Linear-regression.png)
+![Linear Regression & Modeling](Output/Linear-regression.png)
 
 ---
 
