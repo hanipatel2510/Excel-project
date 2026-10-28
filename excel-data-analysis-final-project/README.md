@@ -186,16 +186,6 @@ The **Dashboard** sheet gives a one-glance business summary:
 
 ---
 
-## ⚠️ Known Notes & Improvements
-
-- 📏 The formulas reference `Dataset!R2:R9779`, but the dataset runs to row **9801**. The last 22 rows are therefore excluded from totals (formula total ≈ 2,257,519.53 vs. full-data total ≈ 2,261,536.78). Extending ranges to row 9801, or converting the data to an **Excel Table** so ranges grow automatically, fixes this.
-- 🏷️ The sheet name `Conditional formating` contains a typo — consider renaming to `Conditional Formatting`.
-- 🔗 `Tasks!A23` has a stray tab character and its SUMIF points to `Dataset!O7`; using `A23` as the criteria (like the other rows) would be cleaner.
-- 🕳️ `Postal Code` has 11 blank values (not used in any calculation).
-- 🔠 Consider **named ranges** (e.g. `Sales`, `Region`) for more readable formulas.
-
----
-
 ## 🛠️ Skills Demonstrated
 
 | Area | Skills |
