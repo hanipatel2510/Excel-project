@@ -4,10 +4,6 @@
 <!-- ======================= HEADER WAVE ======================= -->
 <div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=header&text=Sales%20Analysis%20Dashboard&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=Excel-Based%20Sales%20Analytics%20Project&descSize=20&descAlignY=60" alt="Sales Analysis Dashboard banner" width="100%" /> <br/> <img src="https://img.shields.io/badge/TOOL-MICROSOFT%20EXCEL-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Tool" /> <img src="https://img.shields.io/badge/DOMAIN-SALES%20ANALYTICS-2563EB?style=for-the-badge" alt="Domain" /> <img src="https://img.shields.io/badge/RECORDS-9800-F59E0B?style=for-the-badge" alt="Records" /> <img src="https://img.shields.io/badge/STATUS-COMPLETED-16A34A?style=for-the-badge" alt="Status" /> </div>
 
-![Excel](https://img.shields.io/badge/Tool-Microsoft%20Excel-217346?logo=microsoftexcel&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-success)
-![Records](https://img.shields.io/badge/Records-9%2C800-blue)
-
 ---
 
 ## 🎥 Project Demo
