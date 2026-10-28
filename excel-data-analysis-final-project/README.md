@@ -172,6 +172,7 @@ The **Dashboard** sheet gives a one-glance business summary:
 
 ### 7. Pivot Analysis — Slicers & Timeline
 ![Pivot Analysis](Output/06-pivot-analysis.png)
+![Dashboard Sumamary](Output/summary.png)
 
 ---
 
