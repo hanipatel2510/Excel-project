@@ -171,7 +171,7 @@ The **Dashboard** sheet gives a one-glance business summary:
 
 ## 🚀 How to Use
 
-1. 📥 Open `Final-exam1.xlsx` in **Microsoft Excel** (2013 or later recommended — slicers and timelines need it).
+1. 📥 Open `Hanee-Patel-ExcelDashboard.xlsx` in **Microsoft Excel** (2013 or later recommended — slicers and timelines need it).
 2. 👀 Start at the **Dashboard** sheet for the overview.
 3. 🔄 Go to **Pivot Analysis** and click the Region / Category slicers or drag the Order Date timeline to filter.
 4. 🧮 Open **Tasks** to see each formula. Change the customer name in `B15` or the sales values in `A36:A40` to test them.
