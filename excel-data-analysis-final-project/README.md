@@ -62,48 +62,39 @@ The workbook combines core Excel skills — data cleaning, lookup and conditiona
 | 5 | 🔄 **Pivot Analysis** | Pivot table with Region and Category slicers and an Order Date timeline |
 
 ---
-
 ## 🧮 Formulas Used
 
-### 1. Summary Statistics
-| Metric | Formula |
+### 📌 Summary Statistics
+| Function | Use |
 |---|---|
-| Total Sales | `=SUM(Dataset!R2:R9779)` |
-| Average | `=ROUND(AVERAGE(Dataset!R2:R9779),2)` |
-| Maximum | `=MAX(Dataset!R2:R9779)` |
-| Minimum | `=MIN(Dataset!R2:R9779)` |
-| Total Rows | `=COUNT(Dataset!A2:A9779)` |
+| `SUM` | Calculates the **total sales** of all transactions |
+| `AVERAGE` | Finds the **average sale value** per order line |
+| `ROUND` | Rounds the average to **2 decimal places** for clean display |
+| `MAX` | Finds the **highest single sale** in the dataset |
+| `MIN` | Finds the **lowest single sale** in the dataset |
+| `COUNT` / `COUNTA` | Counts the **total number of records** (rows) |
 
-### 2. 🔍 VLOOKUP
-```excel
-=VLOOKUP(Dataset!N8, Dataset!N:Q, 2, FALSE)   -- find Category from Product ID
-=VLOOKUP(Dataset!F11, Dataset!F:I, 2, FALSE)  -- find Customer Name from Customer ID
-```
-
-### 3. 🎯 INDEX-MATCH
-```excel
-=INDEX(Dataset!R2:$R$9779, MATCH(B15, Dataset!$G$2:$G$9779, 0))
-```
-Returns the sales value for the customer name entered in `B15`.
-
-### 4. ➕ SUMIF — Category & Region Analysis
-```excel
-=SUMIF(Dataset!$O$2:$O$9779, A22, Dataset!$R$2:$R$9779)   -- by Category
-=SUMIF(Dataset!$M$2:$M$9779, A29, Dataset!$R$2:$R$9779)   -- by Region
-```
-
-### 5. 🧠 Nested IF — Sales Classification
-```excel
-=IF(A36>=10000,"High",IF(A36>=5000,"Medium",IF(A36>=1000,"Low","Very Low")))
-```
-
-| Sales Value | Class |
+### 🔍 Lookup Functions
+| Function | Use |
 |---|---|
-| ≥ 10,000 | High |
-| 5,000 – 9,999 | Medium |
-| 1,000 – 4,999 | Low |
-| < 1,000 | Very Low |
+| `VLOOKUP` | Searches a value in the first column and returns related data, e.g. **finds Category from Product ID** and **Customer Name from Customer ID** |
+| `INDEX` + `MATCH` | A flexible lookup that **finds a customer's sales** by customer name; works without column-order limits |
 
+### ➕ Conditional Summing
+| Function | Use |
+|---|---|
+| `SUMIF` | Adds sales only when a condition is met, used for **Category-wise** (Furniture, Office Supplies, Technology) and **Region-wise** (West, East, Central, South) sales analysis |
+
+### 🧠 Logical Function
+| Function | Use |
+|---|---|
+| Nested `IF` | Classifies each sales amount into **High, Medium, Low or Very Low** using multiple conditions |
+
+### 🏆 Ranking Functions
+| Function | Use |
+|---|---|
+| `LARGE` | Returns the **nth highest sale value**, used to build the **Top 10 sales** list |
+| `ROWS` | Gives the rank number (1, 2, 3…) automatically so `LARGE` can be copied down |
 ---
 
 ## 🔄 Pivot Table, Slicers & Timeline
