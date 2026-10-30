@@ -124,6 +124,12 @@ Linear Regression output from the Excel Data Analysis ToolPak (Multiple R: 0.458
 
 ---
 
+### 5. Interactive Dashboard & Data Visualization
+
+An interactive Excel Dashboard featuring category-wise revenue analysis, region-wise sales distribution, and Unit Price vs Total Amount comparison using Pivot Tables, Pivot Charts, Bar Charts, Pie Charts, and Scatter Plots.
+
+![Dashboard Preview](Output/Dashboard.png)
+
 ## 💡 Business Findings & Actionable Insights
 
 1. **Electronics Dominance:** Electronics generates ~75% of total revenue, with Laptops and Monitors being the highest-ticket items.
