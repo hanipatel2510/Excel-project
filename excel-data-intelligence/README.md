@@ -129,6 +129,9 @@ Linear Regression output from the Excel Data Analysis ToolPak (Multiple R: 0.458
 An interactive Excel Dashboard featuring category-wise revenue analysis, region-wise sales distribution, and Unit Price vs Total Amount comparison using Pivot Tables, Pivot Charts, Bar Charts, Pie Charts, and Scatter Plots.
 
 ![Dashboard Preview](Output/Dashboard.png)
+![Dashboard Preview](Output/Dashboard-summary.png)
+
+---
 
 ## 💡 Business Findings & Actionable Insights
 
